@@ -5,7 +5,7 @@ CREATE TABLE "Orca" (
     "comidaFavorita" TEXT NOT NULL,
     "descricao" TEXT NOT NULL,
     "sexo" TEXT NOT NULL,
-    "domestico" BOOLEAN NOT NULL DEFAULT false,
+    "domestico" BOOLEAN NOT NULL DEFAULT true,
 
     CONSTRAINT "Orca_pkey" PRIMARY KEY ("id")
 );

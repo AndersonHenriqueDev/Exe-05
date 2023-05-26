@@ -16,6 +16,5 @@ model Orca {
   comidaFavorita String
   descricao String @db.Text()
   sexo String
-  domestico Boolean @default(false)
+  domestico Boolean @default(true)
 }
-
